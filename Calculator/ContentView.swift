@@ -94,6 +94,14 @@ struct ContentView: View {
             Color.black.ignoresSafeArea()
             
             VStack {
+                Button {
+                    print("Good")
+                } label: {
+                    Text("Test Button")
+                        .padding()
+                        .background(.orange)
+                        .cornerRadius(16)
+                }
                 Spacer()
                 
                 HStack {
