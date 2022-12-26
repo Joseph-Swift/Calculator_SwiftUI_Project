@@ -102,6 +102,7 @@ struct ContentView: View {
                         .background(.orange)
                         .cornerRadius(16)
                 }
+                
                 Spacer()
                 
                 HStack {
